@@ -1,0 +1,62 @@
+body{
+    background: red;
+    color:black;
+}
+
+
+.menu{
+
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    background:darkred;
+    color:white;
+    padding:30px;
+
+}
+
+section{
+    color:white;
+    font-size: 40px;
+    font-family: monospace;
+    
+}
+#apps{
+    background-color: #19BCC3;
+}
+#jogos{
+    background:#F0D567
+}
+
+#bots{
+    background:black;
+}
+.topo{
+    background:white;
+    padding:20px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.link a{
+    padding:19px;
+    font-size: 40px;
+    text-decoration: none;
+    color:white;
+
+}
+
+.link a:hover {
+    text-decoration: underline;
+    color:red;
+}
+
+
+.botao{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+    font-size: 40px;
+}
+
+
